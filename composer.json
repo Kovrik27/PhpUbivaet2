@@ -1,0 +1,22 @@
+{
+    "description": "Simple MarkDown Blog",
+    "require": {
+        "twig/twig": "^3.14",
+        "miladrahimi/phprouter": "5.*",
+        "ext-pdo": "*",
+        "filp/whoops": "^2.16",
+        "wixel/gump": "^1.11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kovrik27",
+            "email": "betep2100@mail.ru"
+        }
+    ]
+}
